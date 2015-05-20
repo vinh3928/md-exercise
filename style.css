@@ -1,0 +1,10 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#input, #output {
+  float: left;
+  width: 50%;
+  height: 500px;
+  word-wrap: break-word;
+}
