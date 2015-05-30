@@ -3,4 +3,3 @@ var input = document.getElementById("input"),
 converter = new showdown.Converter();
 input.addEventListener("input", function(e) {
   output.innerHTML = converter.makeHtml(e.target.value);
-});
